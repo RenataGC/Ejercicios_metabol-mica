@@ -1,0 +1,12 @@
+
+#Dataframe
+Causa <- c("Falla sistema urinario","Neoplasia","Infeccioso","Trauma","Falla sistema cardiovascular","Muerte subita","cuerpo extraño")
+Edad1 <- c(16,13,23,19,4,3,1)
+Edad2 <- c(33,23,15,5,6,3,5)
+Edad3 <- c(47,50,13,3,9,1,0)
+Edad4 <- c(43,37,2,1,2,0,0)
+Tabla1 <- data.frame("Motivo de muerte"= Causa,"0 a 4 años"= Edad1,
+                     "5 a 9 años"=Edad2,"10 a 14 años"= Edad3,"15 años o más"=Edad4)
+View(Tabla1) 
+head(Tabla1)
+#Ejercicio Tarea Andrea Renata Guerrero Cervantes 
